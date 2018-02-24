@@ -1,0 +1,28 @@
+{
+  "name": "labyrinth",
+  "version": "1.1.1",
+  "description": "A folder labyrinth-ator hidding tool for a stylish privacy protection...",
+  "main": "labyrinth.js",
+  "scripts": {
+    "test": "npm install -g",
+    "start": "node labyrinth.js --no-deprecation"
+  },
+  "bin": {
+  	 "laby": "./labyrinth.js"
+  },
+  "dependencies": {
+  	 "fs-extra": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.io/ValentinHacker/Labyrynth.git"
+  },
+  "keywords": [
+    "nodejs",
+    "labyrynth",
+    "folder",
+    "security"
+  ],
+  "author": "ValentinHacker",
+  "license": "ISC"
+}
